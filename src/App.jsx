@@ -19,7 +19,7 @@ function App() {
   const [category, setCategory] = useState('DEV');
   const [showConfetti, setShowConfetti] = useState(false);
   
-  const audioRef = useRef(new Audio('/boom.mp3'));
+  const audioRef = useRef(new Audio('./boom.mp3'));
 
   useEffect(() => {
     localStorage.setItem('future-boom-tasks', JSON.stringify(tasks));
