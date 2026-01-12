@@ -100,7 +100,7 @@ function App() {
       
       <header className="mb-10 text-center">
         <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600 mb-2">
-          FUTURE BOOM
+          Daily Momentum
         </h1>
         <p className="text-gray-400">Your daily missions build a powerful future.</p>
       </header>
